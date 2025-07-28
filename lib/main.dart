@@ -30,13 +30,9 @@ class MainApp extends StatelessWidget {
                 ),
 
                 Positioned(
-                  top: 100,
-                  left: 100,
-                  child: Image.asset(
-                    'assets/indo.png',
-                    fit: BoxFit.cover,
-                    scale: 0.75,
-                  ),
+                  top: 110,
+                  left: 85,
+                  child: Image.asset('assets/indo.png', scale: 0.7),
                 ),
 
                 Positioned.fill(
