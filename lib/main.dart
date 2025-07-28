@@ -31,15 +31,14 @@ class MainApp extends StatelessWidget {
 
                 Positioned(
                   top: 100,
-                  right: 50,
-                  child: Center(
-                    child: Image.asset(
-                      'assets/indo.png',
-                      fit: BoxFit.cover,
-                      scale: 0.9,
-                    ),
+                  left: 100,
+                  child: Image.asset(
+                    'assets/indo.png',
+                    fit: BoxFit.cover,
+                    scale: 0.75,
                   ),
                 ),
+
                 Positioned.fill(
                   child: Opacity(
                     opacity: 0.75,
